@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ürün ve Stok Takibi</title>
+  <link rel="stylesheet" href="gorunum.css">
+</head>
+<body>
+  <main class="kapsayici">
+    <h1>Ürün ve Stok Takibi</h1>
+    <p>Ürün ekleyin ve stok miktarını kolayca güncelleyin.</p>
+
+    <form id="urun-formu">
+      <label for="urun-adi">Ürün adı</label>
+      <input id="urun-adi" type="text" placeholder="Örnek: Kahve" required>
+
+      <label for="stok">Stok miktarı</label>
+      <input id="stok" type="number" min="0" step="1" placeholder="0" required>
+
+      <button type="submit">Ürün ekle</button>
+    </form>
+
+    <h2>Ürünler</h2>
+    <table>
+      <thead>
+        <tr><th>Ürün adı</th><th>Stok</th><th>İşlem</th></tr>
+      </thead>
+      <tbody id="urun-listesi"></tbody>
+    </table>
+    <p id="bos-mesaj">Henüz ürün eklenmedi.</p>
+  </main>
+  <script src="uygulama.js"></script>
+</body>
+</html>

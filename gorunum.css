@@ -1,0 +1,93 @@
+
+body {
+  margin: 0;
+  padding: 30px 16px;
+  background: #000;
+  color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+
+.kapsayici {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #171717;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+form {
+  display: grid;
+  gap: 8px;
+  margin: 24px 0;
+}
+
+input, button {
+  padding: 10px;
+  font: inherit;
+}
+
+input {
+  border: 1px solid #555;
+  border-radius: 4px;
+  background: #222;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  border: 0;
+  border-radius: 4px;
+  background: #387a52;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2e6544;
+}
+
+button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #383838;
+  text-align: left;
+}
+
+th {
+  color: #c8c8c8;
+}
+
+.islem-dugmesi {
+  margin: 2px;
+  padding: 7px 10px;
+}
+
+.sil-dugmesi {
+  background: #a83d3d;
+}
+
+.sil-dugmesi:hover {
+  background: #872f2f;
+}
+
+#bos-mesaj {
+  color: #bbb;
+}
