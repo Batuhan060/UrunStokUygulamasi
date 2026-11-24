@@ -10,5 +10,5 @@ Bu uygulamada ürün ekleyebilir, stok miktarını artırıp azaltabilir ve ür�
 3. Ürün adı ile sıfır veya daha büyük sayı stok miktarını yazıp Ürün ekle düğmesine basın.
 4. (+) stoğu artırır, (-) azaltır, Sil ürünü kaldırır.
 
- Veriler, bu tarayıcıdaki urunlerim adıyla LocalStorage alanında saklanır.İnternetsiz çalışır.
+ İnternetsiz çalışır.
 
